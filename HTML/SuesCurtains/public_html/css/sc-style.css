@@ -1,0 +1,79 @@
+/* 
+    Created on : Jan 27, 2015, 10:12:22 AM
+    Author     : Lee_Laptop
+*/
+
+div#header{
+  background: #3669cc; /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM2NjljYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM2Njk5Y2MiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(left,  #3669cc 0%, #6699cc 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#3669cc), color-stop(100%,#6699cc)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #3669cc 0%,#6699cc 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #3669cc 0%,#6699cc 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #3669cc 0%,#6699cc 100%); /* IE10+ */
+  background: linear-gradient(to right,  #3669cc 0%,#6699cc 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3669cc', endColorstr='#6699cc',GradientType=1 ); /* IE6-8 */
+
+  width: 100%;
+  height: 227px;
+  
+}
+
+.SC-font{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+div#header-GS
+{
+    display: inline-block;
+    float: right;
+    
+}
+div#header-SLogo
+{
+    display: inline-block;
+    margin-top: 125px;
+}
+
+div#navigation
+{
+    width: 100%;
+    
+}
+div#navigation-bar
+{
+    margin: 0 auto;
+    width: 500px;
+    margin-top: 10px;
+}
+
+.buttonForm
+{
+    display: inline-block;
+    width: 115px;
+    color: #999;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.lineLeft
+{
+   border-left: solid #999 thin; 
+
+}
+
+.lineRight
+{
+    border-right: solid #999 thin; 
+}
+
+
+//Bug fix for gradients in IE9
+.gradient {
+       filter: none;
+}
+
+
+    
