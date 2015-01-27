@@ -14,7 +14,7 @@ div#header{
   background: -ms-linear-gradient(left,  #3669cc 0%,#6699cc 100%); /* IE10+ */
   background: linear-gradient(to right,  #3669cc 0%,#6699cc 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3669cc', endColorstr='#6699cc',GradientType=1 ); /* IE6-8 */
-
+  min-width: 944px;
   width: 100%;
   height: 227px;
   
@@ -26,7 +26,12 @@ box-shadow: 0px 4px 15px -2px rgba(0,0,0,0.75);
 .SC-font{
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
-
+div#header
+{
+    position: absolute;
+    top: 0;
+    
+}
 div#header-GS
 {
     display: inline-block;
@@ -36,36 +41,50 @@ div#header-GS
 div#header-SLogo
 {
     display: inline-block;
-    margin-top: 125px;
+    margin-top: 135px;
 }
 
 div#navigation
 {
     width: 100%;
-    
+    margin-top: 250px;
 }
 div#navigation-bar
 {
     margin: 0 auto;
     width: 500px;
-    margin-top: 10px;
+    margin-top: 100px;
 }
 
 div#intro
 {
     width: 100%;
+    margin-top: -65px;
+}
+div#intro-info-center
+{
+    display: inline-block;
+    width: 60%;
+    margin-top: 150px;
+}
+div#intro-info-center p
+{
+    color: #6E6D6D;
+    text-align: center;
+    font-size: 13px;
 }
 
-div#intro-left
+div#intro-curtain-left
 {
     display: inline-block;
-    width: 48%;
+    float: left;
+  
 }
-div#intro-right
+div#intro-curtain-right
 {
-    width: 48%;
     display: inline-block;
-    padding: 20px;
+    float: right;
+
     
 }
 div#intro-right-galleryContainer
