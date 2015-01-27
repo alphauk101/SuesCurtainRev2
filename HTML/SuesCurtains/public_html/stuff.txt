@@ -1,0 +1,23 @@
+coinslider code:
+<div id='coin-slider'>
+            <a href="img01_url" target="_blank">
+                <img src='img/thb-swag.jpg' >
+                <span>
+                    Description for img01
+                </span>
+            </a>
+            <a href="imgN_url">
+                <img src='img/thb-tabtop.jpg' >
+                <span>
+                    Description for imgN
+                </span>
+            </a>
+        </div>
+        
+        
+        
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#coin-slider').coinslider();
+            });
+        </script>

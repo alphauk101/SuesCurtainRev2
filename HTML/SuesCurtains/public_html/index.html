@@ -17,6 +17,25 @@
         <!--This is our styling not boiler plate.-->
         <link rel="stylesheet" href="css/sc-style.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+        <script type="text/javascript" src="js/coin-slider/coin-slider.min.js"></script>
+        <link rel="stylesheet" href="js/coin-slider/coin-slider-styles.css" type="text/css" />
+        
+        <!-- Gallery Code-->
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#coin-slider').coinslider({
+                    width:250,
+                    height:250,                  
+                    navigation: false,
+                    opacity: 0
+                });
+            });
+        </script>
+        
+        
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -43,12 +62,45 @@
             </div>
         </div>
         
-        
-        
-        
-        
-        
-        
+         <!--Contains all the top info incluing the gallery.-->
+        <div id="intro">
+            <br/><br/>
+            <div id="intro-left">
+                This is where the text will go!
+            </div>
+            <div id="intro-right">
+                <div id="intro-right-galleryContainer">
+                    <div id='coin-slider'>
+                        <a href="img01_url" target="_blank">
+                            <img src='img/Gallery/one.jpg' >
+                            <span>
+                                Description for img01
+                            </span>
+                        </a>
+                        <a href="img01_url" target="_blank">
+                            <img src='img/Gallery/two.jpg' >
+                            <span>
+                                Description for img01
+                            </span>
+                        </a>
+                        <a href="img01_url" target="_blank">
+                            <img src='img/Gallery/three.jpg' >
+                            <span>
+                                Description for img01
+                            </span>
+                        </a>
+                        <a href="img01_url" target="_blank">
+                            <img src='img/Gallery/four.jpg' >
+                            <span>
+                                Description for img01
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
         
         <!-- PUT BACK IN FOR RELEASE - OUT FOR TESTING!!!!!!!!
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
