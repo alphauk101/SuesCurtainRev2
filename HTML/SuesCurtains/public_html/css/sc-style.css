@@ -41,7 +41,7 @@ div#header-GS
 div#header-SLogo
 {
     display: inline-block;
-    margin-top: 135px;
+    margin-top: 107px;
 }
 
 div#navigation
@@ -60,6 +60,7 @@ div#intro
 {
     width: 100%;
     margin-top: -65px;
+    height: 400px;
 }
 div#intro-info-center
 {
@@ -115,11 +116,81 @@ div#intro-right-galleryContainer
     border-right: solid #999 thin; 
 }
 
+div#designs
+{
+    width: 100%;
+    background: #151515;
+            
+    -webkit-box-shadow: inset 1px 0px 10px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 1px 0px 10px 3px rgba(0,0,0,0.75);
+    box-shadow: inset 1px 0px 10px 3px rgba(0,0,0,0.75);
+    
+    padding: 30px;
+    text-align: center;
+}
+
+.designsShared{
+    display: inline-block;
+    width: 30%;
+    color: white;
+}
+
+.thmb_shadow{
+    -webkit-box-shadow: 1px 0px 10px 3px rgba(255,255,255,255.20);
+    -moz-box-shadow: 1px 0px 10px 3px rgba(255,255,255,255.20);
+    box-shadow: 1px 0px 10px 3px rgba(255,255,255,255.20);
+    margin: 5px;
+}
+.text-hiLighter
+{
+    padding: 7px;
+    background: rgb(54, 25, 25); /* Fall-back for browsers that don't
+                                    support rgba */
+    background: rgba(54, 25, 25, .7);
+    display: inline-block;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
 
 //Bug fix for gradients in IE9
 .gradient {
        filter: none;
 }
+.faded-white
+{
+    color: white;
+    font-size: x-large;
+    float: left;
+    opacity: 0.2;
+}
 
+div#about
+{
+    width: 100%;
+    padding: 20px;
+}
 
+div#about-sueImage
+{
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+}
+div#about-information
+{
+    display: inline-block;
+    width: 50%;
+    margin-top: 30px;
+    color: #6E6D6D;
+    text-align: center;
+    font-size: 14px;
+}
     
+div#about-content-holder
+{
+    margin: 0 auto;
+    width: 940px;/*We know our page never shrinks more than this*/
+}
